@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 10.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(30deg, red, hotpink, violet, cyan, crimson);
+    background-repeat: no-repeat;
+}
+
+input {
+    text-align: right;
+    padding: 15px;
+    font-size:x-large;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+}
+
+#container {
+    position: relative;
+    border-color: red;
+    border-radius: 3px;
+    background: transparent;
+    width: 30%;
+    padding: 35px;
+    backdrop-filter: blur(1px) saturate(200%);
+    -webkit-backdrop-filter: blur(1px) saturate(200%);
+    z-index: 1;
+    animation: scroll 2s;
+}
+
+.btn {
+    margin-top: 12px;
+    margin-right: 12px;
+    background-color: aqua;
+    color: white;
+    width: 15%;
+    padding: 10px;
+    font-size: larger;
+    font-display: center;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: hotpink;
+    color: black;text-align: center;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+
+.zero-btn {
+    width: 34%;
+     margin-top: 12px;
+    margin-right: 12px;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    font-display: center;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: hotpink;
+    color: black;text-align: center;
+
+}
+@keyframes scroll {
+    0%{
+        margin-top: 0%;
+        height: 0%;
+    }
+    100%{
+        height: auto;
+        margin-top: 1%;
+    }
+    
+}
+
+.plus-minus:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.zero-btn:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.delete:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.clear,.delete, .plus-minus, .divide,.plus ,.dot,.into,.equal, .minus{
+     margin-top: 12px;
+    margin-right: 12px;
+    background-color: aqua;
+    color: white;
+    width: 15%;
+    padding: 10px;
+    font-size: larger;
+    font-display: center;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: hotpink;
+    color: black;text-align: center;
+}
+.clear:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.delete:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.plus:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.divide:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.dot:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.into:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.equal:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
+.minus:hover {
+    cursor: pointer;
+    background-color:chartreuse;
+    color: white;
+}
